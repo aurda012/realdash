@@ -1,6 +1,6 @@
 import {
   // DashboardTotalCountCard,
-  // DealsChart,
+  DealsChart,
   // LatestActivities,
   UpcomingEvents,
 } from "@/components";
@@ -68,7 +68,7 @@ export const Home = () => {
             height: "460px",
           }}
         >
-          {/* <DealsChart /> */}
+          <DealsChart />
         </Col>
       </Row>
 
