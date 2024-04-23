@@ -17,6 +17,7 @@ import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 import { Home, ForgotPassword, Login, Register } from "./pages";
 import { Layout } from "./components/layout";
 import { CompaniesList } from "./pages/companies/list";
+import Create from "./pages/companies/create";
 import { resources } from "./config/resources";
 
 function App() {
@@ -60,8 +61,8 @@ function App() {
                   <Route index element={<Home />} />
                   <Route path="/companies">
                     <Route index element={<CompaniesList />} />
-                    {/* <Route path="new" element={<Create />} />
-                        <Route path="edit/:id" element={<Edit />} /> */}
+                    <Route path="new" element={<Create />} />
+                    {/* <Route path="edit/:id" element={<Edit />} /> */}
                   </Route>
                 </Route>
               </Routes>
