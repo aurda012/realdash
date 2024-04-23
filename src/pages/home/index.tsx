@@ -1,5 +1,5 @@
 import {
-  // DashboardTotalCountCard,
+  DashboardTotalCountCard,
   DealsChart,
   // LatestActivities,
   UpcomingEvents,
@@ -20,7 +20,7 @@ export const Home = () => {
 
   return (
     <div>
-      {/* <Row gutter={[32, 32]}>
+      <Row gutter={[32, 32]}>
         <Col xs={24} sm={24} xl={8}>
           <DashboardTotalCountCard
             resource="companies"
@@ -42,7 +42,7 @@ export const Home = () => {
             totalCount={data?.data.deals.totalCount}
           />
         </Col>
-      </Row> */}
+      </Row>
 
       <Row
         gutter={[32, 32]}
