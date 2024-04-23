@@ -7,7 +7,7 @@ import ProjectCardSkeleton from "./skeleton/project-card";
 import LatestActivitiesSkeleton from "./skeleton/latest-activities";
 
 import DashboardTotalCountCard from "./home/total-count-card";
-// import LatestActivities from "./home/latest-activities";
+import LatestActivities from "./home/latest-activities";
 
 export {
   UpcomingEvents,
@@ -18,7 +18,7 @@ export {
   ProjectCardSkeleton,
   LatestActivitiesSkeleton,
   DashboardTotalCountCard,
-  // LatestActivities
+  LatestActivities,
 };
 // export * from './tags/user-tag';
 export * from "./text";
