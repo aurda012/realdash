@@ -9,7 +9,7 @@ import type { User } from "@/graphql/schema.types";
 
 import { CustomAvatar } from "../../custom-avatar";
 import { Text } from "../../text";
-// import { AccountSettings } from "../account-settings";
+import { AccountSettings } from "../account-settings";
 
 export const CurrentUser = () => {
   const [opened, setOpened] = React.useState(false);
@@ -68,13 +68,13 @@ export const CurrentUser = () => {
           style={{ cursor: "pointer" }}
         />
       </Popover>
-      {/* {user && (
+      {user && (
         <AccountSettings
           opened={opened}
           setOpened={setOpened}
           userId={user.id}
         />
-      )} */}
+      )}
     </>
   );
 };
