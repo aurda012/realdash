@@ -20,6 +20,7 @@ import { CompaniesList } from "./pages/companies/list";
 import Create from "./pages/companies/create";
 import Edit from "./pages/companies/edit";
 import List from "./pages/tasks/list";
+import CreateTask from "./pages/tasks/create";
 import EditTask from "./pages/tasks/edit";
 import { resources } from "./config/resources";
 
@@ -75,7 +76,7 @@ function App() {
                       </List>
                     }
                   >
-                    {/* <Route path="new" element={<CreateTask />} /> */}
+                    <Route path="new" element={<CreateTask />} />
                     <Route path="edit/:id" element={<EditTask />} />
                   </Route>
                 </Route>
